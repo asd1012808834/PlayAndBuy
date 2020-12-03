@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chat-client" />
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="PlayAndBuy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chat-client" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="PlayAndBuy" target="1.8" />

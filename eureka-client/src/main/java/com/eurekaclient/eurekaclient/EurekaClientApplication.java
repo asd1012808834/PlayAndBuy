@@ -15,7 +15,7 @@ public class EurekaClientApplication {
 
 		Environment environment = context.getBean(Environment.class);
 
-		System.out.println("访问链接：http://localhost:" +environment.getProperty("server.port")+environment.getProperty("server.servlet.context-path"));
+		System.out.println("访问链接：http://localhost:" +environment.getProperty("server.port"));
 	}
 
 }
